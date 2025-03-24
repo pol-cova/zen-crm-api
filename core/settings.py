@@ -176,9 +176,11 @@ DJOSER = {
 }
 
 # CORS settings
-"""
+# CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"]
+    #"http://localhost:3000",
+    "https://zen-crm.polco.lat"
+]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = [
     'DELETE',
@@ -199,4 +201,3 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-"""
